@@ -1,0 +1,7 @@
+Modèle,Meilleurs paramètres,R² CV (train),RMSE (test),R² (test)
+LightGBM,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 200}",0.5795,0.5893,0.5969
+CatBoost,"{'depth': 7, 'iterations': 100, 'learning_rate': 0.1}",0.5837,0.5897,0.5963
+XGBoost,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 200}",0.5792,0.591,0.5946
+Random Forest,"{'max_depth': 5, 'min_samples_split': 5, 'n_estimators': 200}",0.564,0.5987,0.584
+Decision Tree,"{'max_depth': 5, 'min_samples_leaf': 4, 'min_samples_split': 2}",0.5474,0.6103,0.5677
+AdaBoost,"{'learning_rate': 0.01, 'n_estimators': 200}",0.5234,0.6307,0.5382
